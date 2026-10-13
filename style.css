@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.headerr{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.headerr .header-wrapper .headerlink-wrapper ul{
+    display: flex;
+}
+.headerlink-wrapper, ul, li ,a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    
+    margin: 5px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.headerlink-wrapper ul li a:hover{
+    opacity: 0.5;
+    
+}
+.header-link,.search-link,.cart-link{
+    width: 25px;
+    display: block;
+    display: flex;
+}
+
+.footer-wrapper li{
+    display: block;
+    
+    
+
+}
+.footer-wrapper{
+    margin: 15px;
+    color: rgb(167, 153, 153);
+}
+.footer-wrapper a {
+    background-color: white;
+    color: rgb(167, 153, 153);
+
+
+font-size: 12px;
+
+}
+.footer-wrapper a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+
+.footer-wrapper li{
+    text-align: center;
+    
+}
+.footer-link-wrapper{
+    display: flex;
+    
+}
+.footer-wrapper h5{
+    color: rgb(92, 87, 87);
+    margin-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+.footer-link-wrapper ul li{
+    margin-left: 0px;
+
+}
+
+.upper-text-container {
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-link-wrapper {
+    margin-top: 25px;
+    justify-content: space-between;    
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-wrapper p a{
+    color: rgb(21, 111, 196);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+.footer-wrapper{
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    
+}
+.footer-link-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    
+   
+}
+
+.footer-link-wrapper li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default list styling */
+.footer-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link-wrapper li {
+    display: block;
+    text-align: left;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.footer-wrapper .footer-link-wrapper h5 {
+    margin: 0 0 10px 0;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #5a5a68;
+}
+.footer-bottom {
+    font-size: 12px;
+    color: #888;
+    padding: 20px 0;
+    border-top: 1px solid #d6d6d6;
+    margin-top: 20px;
+}
+
+.footer-bottom-content {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-bottom p {
+    margin: 0 15px 5px 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #555;
+}
+
+.footer-legal-links {
+    display: flex;
+    gap: 8px;
+    margin: 0 15px 5px 0;
+}
+
+.footer-legal-links a {
+    color: #615a5a;
+    text-decoration: none;
+}
+
+.footer-legal-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-region {
+    margin-bottom: 5px;
+    color: #8d8989;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main-content-wrapper{
+    background-color: #fefeff;
+    text-align: center;
+    margin-top: 20px;
+}
+.brand-container{
+    font-size: 56px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.briff-discription{
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.links-list-wrapper ul li a{
+    color: rgb(21, 133, 238);
+}
+.iphone-container{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.iphone11-pro{
+    background-color: black;
+    color: rgb(233, 230, 230);
+    margin-top: 10px;
+}
+.phone-model{
+    font-size: 56px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.briff-discription-2{
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.iphone11-links ul li a{
+    color: rgb(21, 133, 238);
+
+}
+.iphone11{
+    background-color: rgb(250, 256, 275);
+}
+.iphone11-model-name{
+    font-size: 56px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.iphone-11-discription{
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.iphone11-wrapper{
+    padding-top: 20px;
+}
+.iphone-11-links ul li a{
+    color: rgb(21, 133, 238);
+}
+.left-image-wrapper{
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+.watch-link ul li a{
+    color:rgb(21, 133, 238);
+    padding-bottom: 0;
+
+}
+.card-links ul li a{
+    color:rgb(21, 133, 238);
+}
+.top-section-of-twos{
+    display: flex;
+    background-color: white;
+}
+.card-is-here{
+    padding-top: 25px;
+    
+}
+.cash-connect{
+    padding-top: 26px;
+    
+}
+
+.right-image{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.middle-images-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.middle-left-image-wrapper,
+.middle-right-image-wrapper {
+    flex: 1;
+    min-width: 0;
+    
+}
+
+.middle-left-image-wrapper img,
+.middle-right-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+.airpods-link ul li a{
+    color:rgb(21, 133, 238);
+}
+.apple-tv{
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 0;
+}
+
+.middle-right-image-wrapper{
+    background-color: black;
+    color: white;
+    height: 440px;
+
+}
+.airpods-pro{
+    font-size: 56px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.airpods-pro-discription{
+  font-size: 28px;
+font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.airpod-image {
+    height: 220px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.airpod-image img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+}
+.middle-left-image-wrapper{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.servant{
+    width: 100%;
+    height: 50%;    
+}
+.middle-left-image-wrapper {
+    background-image: url("/image/apple-tv-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.apple-tv {
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+
+.servant {
+    margin-top: 144px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.bottem{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.bottem,.botetm-section-wrapper{
+    display: flex;
+}
+.botetm-section-wrapper{
+    width: 100%;
+    gap: 10px;
+    width: 100%;
+}
+.bottem-left-wrapper{
+    width: 50%;
+    min-height: 500px;
+    text-align: center;
+    padding-top: 30px;
+    overflow: hidden;
+    background-color: #fafafa;
+}
+.bottem-right-wrapper{
+    width: 50%;
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 30px;
+    overflow: hidden;
+    min-height: 500px;
+}
+.mac-pro-image img,
+.ipad-image img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 25px auto 0;
+}
+.mac-moodel-wrapper{
+    font-size: 56px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.mac-pro-discription{
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.mac-pro-links ul li a{
+    color: rgb(21, 133, 238);
+
+}
+.ipad-wrapper{
+    font-size: 44px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ipad-model-wrapper{
+    font-size: 56px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+   
+.ipad-discription{
+    font-size: 28px;
+}
+.ipad-links ul li a{
+    color: rgb(21, 133, 238);
+}
+.footer-wrapper{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+
+          
+
+
+
